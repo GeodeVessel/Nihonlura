@@ -1,0 +1,95 @@
+body {
+    color: white;
+    background: rgb(33,18,36); 
+    margin: 0px;
+    margin-bottom: 130px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 228, 88);
+    text-align: center;
+    padding: 8px;
+    color: rgb(42, 228, 88);
+}
+
+.japa{
+    font-size: 24px;
+}
+
+.romaji{
+    font-size: 50px;
+}
+
+.big-boy {
+    background: rgb(65, 43, 70);
+    padding-bottom: 120px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-call {
+    margin-left: 5%;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.first-row{
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.second-row{
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.small-boy1 {
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.small-boy2 {
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.small-boy1 img{
+    height: 150px;
+    opacity: 0.5;
+}
+
+.small-boy2 img{
+    height: 150px;
+    opacity: 0.5;
+}
+
+.small-boy1 img:hover {
+    opacity: 1.0;
+    border: solid 2px rgb(42, 228, 88);
+}
+
+.small-boy2 img:hover {
+    opacity: 1.0;
+    border: solid 2px rgb(42, 228, 88);
+}
+
+.small-boy1 h2{
+    color:rgb(42, 228, 88)
+}
+
+.small-boy2 h2{
+    color:rgb(42, 228, 88)
+}
